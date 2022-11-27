@@ -7,12 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
     <link rel="stylesheet" href="./scss/style.scss" />
+    <script src="js/jquery-3.6.1.slim.min.js"></script>
     <script type="module" defer src="./js/main.js"></script>
     <title>2048 GAME</title>
 </head>
 
 <body>
     <h1 class="header">2048 Game</h1>
+    <div id="mobilewrap">
+        <div id="container">
+            <div class="score">
+                <p> <span class="title">Score</span><span class="scorefield">0</span></p>
+            </div>
+            <div class="newgame">
+                <div class="button"><span>New Game</span></div>
+            </div>
+            <div class="grid">
+                <div class="row">
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                </div>
+                <div class="row">
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                </div>
+                <div class="row">
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                </div>
+                <div class="row">
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                    <div class="base"></div>
+                </div>
+            </div>
+            <div class="tiles"></div>
+            <div class="over"><span>Game Over</span></div>
+            <div class="won"><span class="winner">You win!</span><span class="bestscore">BEST SCORE:</span><span
+                    class="numbest"> </span></div>
+        </div><a>href="https://twitter.com/simoberny" target='_blank' <i class="fa fa-twitter"
+                aria-hidden="true"></i></a>
+    </div>
 </body>
 
 </html>
